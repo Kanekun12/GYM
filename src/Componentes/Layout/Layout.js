@@ -6,11 +6,9 @@ import Footer from '../Menu/footer';
 function Layout(Children) {
   return (
     <div>
-       
-        {Children}
-        
-
-
+      <Menu/>
+      {Children}
+      <Footer/>
         
         </div>
   )

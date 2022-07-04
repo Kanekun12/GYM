@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../img/fondo.jpg';
+
 import logo from '../img/logo.jpg';
 import '../Pag/Home.css';
 import './registro';

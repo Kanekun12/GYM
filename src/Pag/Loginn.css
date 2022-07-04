@@ -1,0 +1,97 @@
+.Login-header{
+    background-image:  url('../img/fondo.jpg');
+    background-size: 100% 100%;
+    min-height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px + 2vmin;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.Login-logo{
+    height: 150px;
+    width: 250px;
+
+    padding: 20%;
+    
+    margin-top: none;
+    background: center;
+    transform: translateX(-1%) translateY(-35%);
+    
+    
+}
+ 
+.cuadro-Login {
+   
+    height: 500px;
+    width: 400px;
+     
+    background: white;
+    padding: 40px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-family: 'calibri';
+    color: black;
+}
+ 
+.Login-button  {
+     
+    position: absolute;
+    margin: 5px 160px;
+    padding: 10px 20px;  
+
+    transform: translateX(0%) translateY(-110%);
+     
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row-nomRegistro {
+    padding: 1px;
+    text-align: center;
+    font-size: 25px;
+    position: initial;
+   
+    
+    left: 100%;
+    top: 100%;
+    
+    transform: translateX(-1%) translateY(-450%);
+    color: blueviolet;
+
+}
+
+.row-nombre {
+    padding: 1px;
+    text-align: center;
+    font-size: 20px;
+    position: initial;
+   
+    
+    left: 100%;
+    top: 100%;
+    
+    transform: translateX(-1%) translateY(-180%);
+
+}
+
+.row-texto{
+    text-align: center;
+    transform: translateX(10%) translateY(-180%);
+}
+
+.texto-registrate{
+    color: burlywood;
+}
+
