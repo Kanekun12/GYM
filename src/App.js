@@ -1,10 +1,10 @@
 import React from 'react';
-import Ruta from './Ruta/Ruta';
+import Rutas from './Rutas/Ruta';
 
 function App() {
   return (
     <div>
-       
+       <Rutas/>
 
 
     </div>

@@ -13,3 +13,19 @@
     background-attachment: fixed;
 
 }
+
+.Registro{
+    background-image:  url('../img/fondo.jpg');
+    background-size: 100% 100%;
+    min-height: 114vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px + 2vmin;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
