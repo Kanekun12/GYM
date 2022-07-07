@@ -14,17 +14,17 @@
 
 }
 
-<<<<<<< HEAD
+
 .Contenido{
     background-image:  url('../img/fondo.jpg');
     background-size: 100% 100%;
     min-height: 100vmin;
-=======
+}
 .Registro{
     background-image:  url('../img/fondo.jpg');
     background-size: 100% 100%;
     min-height: 114vmin;
->>>>>>> 4204c68d46b55d81a74f0a910d93815c2ce8e7a5
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +35,6 @@
     background-size: cover;
     background-attachment: fixed;
 
-<<<<<<< HEAD
 }
 
 .Informe{
@@ -53,6 +52,4 @@
     background-attachment: fixed;
 
 }
-=======
-}
->>>>>>> 4204c68d46b55d81a74f0a910d93815c2ce8e7a5
+

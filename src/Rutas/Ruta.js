@@ -5,6 +5,7 @@ import Layout from '../Componentes/Layout/Layout';
 import Home from '../Pag/Home';
 import Login from '../Pag/login';
 import Registro from '../Pag/registro';
+import Contenido from '../Pag/contenido';
 
 function Ruta() {
   return(
@@ -18,6 +19,7 @@ function Ruta() {
                 <Route exact path="/" element ={<Home />}/>
                 <Route exact path="/login" element ={<Login />}/>
                 <Route exact path="/registro" element ={<Registro/>}/>
+                <Route exact path="/Contenido" element ={<Contenido/>}/>
                       
                 </Routes>
                 

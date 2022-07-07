@@ -7,9 +7,6 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import Home from './Pag/Home';
 import Resgistro from './Pag/registro';
 import Login from './Pag/login';
-import Contenido from './Pag/contenido';
-import Informe from './Pag/informe';
-
 
 
 
@@ -19,16 +16,12 @@ import Informe from './Pag/informe';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-<<<<<<< HEAD
-    
+    <App/>
     
     
     
 
     
-=======
-    <App/>
->>>>>>> 4204c68d46b55d81a74f0a910d93815c2ce8e7a5
 
   </React.StrictMode>
 );

@@ -1,14 +1,17 @@
 import React from 'react'
 import logo from '../img/logo.jpg';
 import './registro';
+import './contenido';
 
 
 import './fondo.css';
 import '../Pag/Loginn.css';
 
 import Registro from '../Pag/registro';
+import Contenido from './contenido';
 
 function login() {
+  const contenido = '/contenido';
   return (
     <div className='Login'>
       <header className='Login-header'>
@@ -64,7 +67,11 @@ function login() {
           </header>
 
 
-        <button  className="Login-button" type='submit'>iniciar</button>
+          <div className='input-block'>
+            <form method='get' action={contenido}>
+            <button  className="login-button" type='submit'>iniciar</button>
+            </form>
+          </div>
         
         
 
