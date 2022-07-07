@@ -7,6 +7,8 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import Home from './Pag/Home';
 import Resgistro from './Pag/registro';
 import Login from './Pag/login';
+import Contenido from './Pag/contenido';
+import Informe from './Pag/informe';
 
 
 
@@ -16,7 +18,7 @@ import Login from './Pag/login';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Login/>
+    <Informe/>
     
     
     
