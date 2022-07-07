@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../img/logo.jpg';
+import './registro';
 
 
 import './fondo.css';
@@ -19,9 +20,9 @@ function login() {
 
 
             <div className="row-nomRegistro">
-              <label>Registro</label>
+              <label>Iniciar Sesion</label>
 
-              </div>
+            </div>
             
             <div className="row-nombre">
               <label for="inputEmail3" class="col-sm-2 col-form-label">Correo</label>
@@ -42,7 +43,7 @@ function login() {
               <label> ¿Aun no tienes cuenta? </label>
               
               <div className='texto-registrate'>
-              <label ><a href='Registro'>Registrate</a></label>
+              <label ><a href='/Registro'>Registrate</a></label>
               
 
               </div>

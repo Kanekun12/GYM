@@ -1,0 +1,90 @@
+.registro-logo{
+    height: 150px;
+    width: 250px;
+
+    padding: 20%;
+    
+    margin-top: none;
+    background: center;
+    transform: translateX(-1%) translateY(-35%);
+    
+    
+}
+
+.row-nomRegistro {
+    padding: 1px;
+    text-align: center;
+    font-size: 25px;
+    position: initial;
+   
+    
+    left: 100%;
+    top: 100%;
+    
+    transform: translateX(-1%) translateY(-550%);
+    color: blueviolet;
+
+}
+
+.Formulario-registro{
+    border-radius: 50%;
+
+    font-size: 90%;
+    line-height: 10px;
+    transform: translateX(1%) translateY(-60%);
+
+}
+
+.controls {
+    margin: 5px;
+    width: 70%;
+    background: white;
+    padding: 3px;
+    border-radius: 1px;
+    margin-bottom: 1px;
+    color: black;
+    
+}
+
+.controls2 {
+
+    margin: 2%;
+    width: 25%;
+    
+    background: white;
+    padding: 3px;
+    border-radius: 1px;
+    margin-bottom: 1px;
+    color: black;
+    
+    
+}
+
+.controls3 {
+    
+    margin: 1px;
+    padding-top: 10px;
+    border-radius: 1px;
+    transform: translateX(45%) translateY(80%);
+    
+    
+}
+
+.controls4 {
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+    border-radius: 1px;
+    transform: translateX(90%) translateY(50%);
+    
+    
+}
+
+.Registro-button  {
+    
+    position: absolute;
+    margin: 5px 160px;
+    padding: 10px 20px; 
+    transform: translateX(10%) translateY(-350%);
+    
+}

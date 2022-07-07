@@ -15,15 +15,20 @@ import Informe from './Pag/informe';
 
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+<<<<<<< HEAD
     
     
     
     
 
     
+=======
+    <App/>
+>>>>>>> 4204c68d46b55d81a74f0a910d93815c2ce8e7a5
 
   </React.StrictMode>
 );

@@ -91,7 +91,9 @@
     transform: translateX(10%) translateY(-180%);
 }
 
+
 .texto-registrate{
+    border: none;
     color: burlywood;
 }
 
