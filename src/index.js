@@ -18,7 +18,7 @@ import Informe from './Pag/informe';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Informe/>
+    
     
     
     
