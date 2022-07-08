@@ -7,9 +7,11 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import Home from './Pag/Home';
 import Resgistro from './Pag/registro';
 import Login from './Pag/login';
-
-
-
+import Contenido from './Pag/contenido';
+import brazos from './Pag/brazos';
+import Informe from './Pag/informe';
+import Brazos from './Pag/brazos';
+import Pecho from './Pag/pecho';
 
 
 
@@ -17,10 +19,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App/>
-    
-    
-    
-
     
 
   </React.StrictMode>

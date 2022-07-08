@@ -1,43 +1,58 @@
 import React from 'react';
 
-import logo2 from '../img/Cardio.avif';
+import logo from '../img/cardio.gif';
+
+import './contenido';
 
 
 import './fondo.css' ;
-import './informe.css';
-
+import './general.css';
 
 
 
 export default function informe() {
+  const contenido = "/Contenido";
   return (
-    <div className='Informe'>
+    <div className='General'>
 
-      <header className='cuadro-informe'>
+      <header className='cuadro-general'>
       <div>
 
-      <button className="btn-close" aria-label="Close"> Atras</button>
+      <div className='input-block'>
+          <form method='get' action={contenido}>
+          <button className="btn-close" aria-label="Close"> Atras</button>
+          </form>
+          </div>  
+
+      
+      
       </div>
       <div className='title-info'>
-            <label form='text'>Caminata </label>
+            <label form='text'>Cinta de correr</label>
       </div>
 
-      <img className='informe-logo' src={logo2} WIDTH="250" HEIGHT="190" ALT="logo"/>
+      <img className='cardio-gif' src={logo} WIDTH="250" HEIGHT="190" ALT="gif"/>
 
      
         <div class="container">
   <div class="row row-cols-4">
     
-    <div className="col">Es la principal, la número uno por excelencia, ya que puedes 
-    hacerla en cualquier lugar, a cualquier hora, con un grupo de entrenamiento, solo… 
-    Además, en lugares fríos o cuando vamos escasos de tiempo, podemos hacerla dentro 
-    del gimnasio gracias a las cinta de correr. Se dice que se gasta aproximadamente 
-    tu peso corporal en calorías por cada kilómetro que corres.
+    <div className="col">Los entrenamientos progresivos en cinta de correr son muy efectivos para mejorar la
+     forma física. Con rutinas de entrenamientos de cinta de correr de 40 a 60 minutos, el trabajo será exigente. 
+     Y, los resultados mejorarán de forma rápida. Además, es un plan de entrenamiento ameno, ideal para los propensos 
+     al aburrimiento.
+    <br></br><br></br>
+     1.- Estira adecuadamente piernas y pies, así como manos y brazos.
+     <br></br> 
+     2.- Haz 25 minutos de carrera suave sobre la cinta de correr. Sin inclinación.
+   
+     
 </div>
+
   </div>
 </div>
 
-        </header> 
+    </header> 
 
       
     </div>

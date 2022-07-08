@@ -2,11 +2,14 @@ import React from 'react'
 
 import logo1 from '../img/gym.png';
 
+import './informe';
+
 import './fondo.css';
 import './contenido.css';
 
 
 export default function Contenido() {
+  const informe = "/informe";
   return (
     <div className='Contenido'>
 
@@ -28,9 +31,12 @@ export default function Contenido() {
           </div>
             
             
+            
+            <div className='input-block'>
             <div>
-
+            <form method='get' action={informe}>
             <button className='botones' type='submit'>Cardio</button>
+            </form>
             </div>
             <button className='botones' type='submit'>Pecho</button>
             <div>
@@ -47,6 +53,7 @@ export default function Contenido() {
             </div>
             <div>
             <button className='botones' type='submit'>Abdomen</button>
+            </div>
             </div>
           </header>
 
