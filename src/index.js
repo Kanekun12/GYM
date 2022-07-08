@@ -18,7 +18,7 @@ import Pecho from './Pag/pecho';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App/>
+    <Resgistro/>
     
 
   </React.StrictMode>

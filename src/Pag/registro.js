@@ -15,12 +15,14 @@ function registro() {
   const login = "/login";
   return (
     <div className='Registro'>
-      <header className='cuadro-header'>
+      <header className='blanco-header'>
         <img className='registro-logo' src={Logo}/>
 
 
 
         <header className='Formulario-header'>
+
+              
 
         <div className="row-nomRegistro">
     
@@ -29,28 +31,58 @@ function registro() {
         </div>
 
         <div className='Formulario-registro'> 
-              <label form='text'>Nombre: </label>
-              <input className='controls' type="text"placeholder='Nombre' id='nombre' required />
-              <div></div>
-              <label form='text'>Apellido: </label>
-              <input className='controls' type="text"placeholder='apellido' id='nombre' required />
-              <div></div>
-              <label form='text'>Correo: </label>
-              <input className='controls' type="gmail"placeholder='Correo' id='correo' required />
-              <div></div>
-              <label form='text'>Contraseña:</label>
-              <input className='controls' type="password"placeholder='Contraseña' id='contraseña' required />
-              <div></div>
-              <label form='text'>Confirma: </label>
-              <input className='controls' type="password"placeholder='Contraseña' id='contraseña' required />
-              <div className='fila'>
-              <label form='text'>Sexo: </label>
-              <input className='controls2' type="text"placeholder='Sexo' id='sexo' required />
-              <label form='text'>Edad: </label>
-              <input className='controls2' type="text"placeholder='Edad' id='edad' required />
-              <div></div>
+
+              <form>
+              <div className="row mb-3">
+              <label for="inputEmail3" className="col-sm-2 col-form-label">Nombre</label>
+              <div className="col-sm-10">
+              <input type="text" placeholder='Nombre' className="form-control" id="nombre"/>
               </div>
-              <div>
+              </div>
+
+              <div className="row mb-3">
+              <label for="inputEmail3" className="col-sm-2 col-form-label">Apellido</label>
+              <div className="col-sm-10">
+              <input type="text" placeholder='Apellido' className="form-control" id="apellido"/>
+              </div>
+              </div>
+
+              <div className="row mb-3">
+              <label for="inputEmail3" className="col-sm-2 col-form-label">Email</label>
+              <div className="col-sm-10">
+              <input type="email" placeholder='Email' className="form-control" id="email"/>
+              </div>
+              </div>
+
+              <div className="row mb-3">
+              <label for="inputEmail3" className="col-sm-2 col-form-label">Contraseña</label>
+              <div className="col-sm-10">
+              <input type="password" placeholder='Contraseña' className="form-control" id="contraseña"/>
+              </div>
+              </div>
+
+              <div className="row mb-3">
+              <label for="inputEmail3" className="col-sm-2 col-form-label">  Confirmar</label>
+              <div className="col-sm-10">
+              <input type="password" placeholder='Confirma Contraseña' className="form-control" id="contraseña"/>
+              </div>
+              </div>
+
+              <div className='2'>
+                <label form='text'>Sexo: </label>
+                <input className='fila' type="text" placeholder='Sexo' id='sexo'/>
+                <label for='text'>Edad: </label>
+                <input className='fila' type="text" placeholder='Edad' id='sexo'/>
+              </div>
+
+
+
+             
+
+              </form>
+
+
+              
               
               
               <div className='controls3' from='text'>Rango: </div>
@@ -62,7 +94,7 @@ function registro() {
                 <option value="3">65 - 85</option>
               </select>
             </div>
-            </div>
+            
 
            
           
