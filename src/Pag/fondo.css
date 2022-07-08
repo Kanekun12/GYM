@@ -23,7 +23,7 @@
 .Registro{
     background-image:  url('../img/fondo.jpg');
     background-size: 100% 100%;
-    min-height: 114vmin;
+    min-height: 120vmin;
 
     display: flex;
     flex-direction: column;
