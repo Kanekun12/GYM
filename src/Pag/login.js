@@ -26,20 +26,24 @@ function login() {
               <label>Iniciar Sesion</label>
 
             </div>
-            
-            <div className="row-nombre">
-              <label for="inputEmail3" class="col-sm-2 col-form-label">Correo</label>
-              <div className="col-barra">
-                <input type="email" class="form-control" id="email"/>
-              </div>
-            </div>
 
-            <div className="row-nombre">
-              <label for="gmail" class="col-sm-2 col-form-label">Contraseña</label>
-              <div className="col-barra">
-                <input type="password" class="form-control" id="contraseña"/>
-              </div>
+
+            <div>
+            <div className='nombre'>
+              <label for="email">Correo</label>
+            </div>  
+            <div className='barra'>
+            <input type="email" className="form-control" id="email"/>
+            </div>          
+            
+            <div className='nombre'>
+              <label for="email">Contraseña</label>
+            </div>  
+            <div className='barra'>
+            <input type="password" className="form-control" id="email"/>
+            </div>  
             </div>
+            
 
 
             <div className='row-texto'>
