@@ -1,4 +1,5 @@
 import React from 'react';
+import Axios from 'axios';
 
 
 
@@ -7,7 +8,11 @@ import '../Pag/Home.css';
 import './registro';
 import './login';
 
+
+
 function Home() {
+
+
   const login = '/login';
   return (
 
@@ -34,18 +39,6 @@ function Home() {
         
 
       </header> 
-
-      
-     
-
-
-    
-  
-
-
-
-
-
 
     </div>
   )

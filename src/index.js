@@ -5,13 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import Home from './Pag/Home';
-import Resgistro from './Pag/registro';
+import Registro from './Pag/registro';
 import Login from './Pag/login';
 import Contenido from './Pag/contenido';
 import brazos from './Pag/brazos';
 import Informe from './Pag/informe';
 import Brazos from './Pag/brazos';
 import Pecho from './Pag/pecho';
+
 
 
 

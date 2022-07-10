@@ -10,7 +10,14 @@ import '../Pag/Loginn.css';
 import Registro from '../Pag/registro';
 import Contenido from './contenido';
 
+
+
+  
+
+
+
 function login() {
+
   const contenido = '/contenido';
   return (
     <div className='Login'>
@@ -33,14 +40,22 @@ function login() {
               <label for="email">Correo</label>
             </div>  
             <div className='barra'>
-            <input type="email" className="form-control" id="email"/>
+            <input 
+            type="email" 
+            className="form-control" 
+            name="email"
+            id="email"/>
             </div>          
             
             <div className='nombre'>
               <label for="email">Contraseña</label>
             </div>  
             <div className='barra'>
-            <input type="password" className="form-control" id="email"/>
+            <input 
+            type="password" 
+            className="form-control"
+            name="password" 
+            id="email"/>
             </div>  
             </div>
             
@@ -56,18 +71,7 @@ function login() {
               </div>
             
             </div>
-            
-
-
-
-            
-
          
-        
-      
-            
-
-
           </header>
 
 
@@ -90,4 +94,6 @@ function login() {
 }
 
 export default login
+
+
 
