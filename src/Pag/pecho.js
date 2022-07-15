@@ -14,7 +14,7 @@ export default function brazos() {
       <div>
       <button className="btn-close" aria-label="Close"> Atras</button>
       </div>
-      <div className='title-bra'>
+      <div className='title-pecho'>
             <label form='text'>Press de banca inclinado</label>
       </div>
 

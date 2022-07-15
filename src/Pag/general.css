@@ -70,5 +70,51 @@
     padding:  50px 10px;
     text-align: justify;
 }
+.pierna-gif {
+    height: 150px;
+    width: 230px;
 
+    transform: translateX(35%) translateY(20%);
+   
+}
+.title-pierna{
+    
+    transform: translateX(30%) ;
+    font-weight: bold;
+}
+.espalda-gif {
+    height: 150px;
+    width: 230px;
 
+    transform: translateX(35%) translateY(20%);
+   
+}
+.title-espalda{
+    
+    transform: translateX(25%) ;
+    font-weight: bold;
+}
+.sentadillas-gif {
+    height: 150px;
+    width: 230px;
+
+    transform: translateX(35%) translateY(20%);
+   
+}
+.title-sentadillas{
+    
+    transform: translateX(40%) ;
+    font-weight: bold;
+}
+.abdomen-webp {
+    height: 150px;
+    width: 230px;
+
+    transform: translateX(35%) translateY(20%);
+   
+}
+.title-abdomen{
+    
+    transform: translateX(20%) ;
+    font-weight: bold;
+}

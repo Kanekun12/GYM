@@ -12,6 +12,11 @@ import brazos from './Pag/brazos';
 import Informe from './Pag/informe';
 import Brazos from './Pag/brazos';
 import Pecho from './Pag/pecho';
+import Pierna from './Pag/pierna';
+import Espalda from './Pag/espalda';
+import Gluteos from './Pag/gluteos';
+import Abdomen from './Pag/abdomen';
+
 
 
 
