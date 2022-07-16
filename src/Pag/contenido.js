@@ -1,8 +1,12 @@
 import React from 'react'
 
 import logo1 from '../img/gym.png';
+import Home from '../pages/Home';
 
 import './informe';
+import './pecho';
+import './brazos';
+import './pierna';
 
 import './fondo.css';
 import './contenido.css';
@@ -38,7 +42,11 @@ export default function Contenido() {
             <button className='botones' type='submit'>Cardio</button>
             </form>
             </div>
+            <div>
+            
             <button className='botones' type='submit'>Pecho</button>
+            
+            </div>
             <div>
             <button className='botones' type='submit'>Brazos</button>
             </div>

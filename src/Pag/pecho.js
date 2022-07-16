@@ -7,13 +7,18 @@ import './fondo.css' ;
 import './general.css';
 
 export default function brazos() {
+  const contenido = "/contenido";
   return (
     <div className='General'>
 
       <header className='cuadro-general'>
-      <div>
-      <button className="btn-close" aria-label="Close"> Atras</button>
-      </div>
+      <div className='input-block'>
+          <form method='get' action={contenido}>
+          <button className="btn-close" aria-label="Close"> Atras</button>
+          </form>
+          </div>
+    
+      
       <div className='title-bra'>
             <label form='text'>Press de banca inclinado</label>
       </div>
